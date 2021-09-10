@@ -10,6 +10,7 @@ public class StackQueueMain {
                 " \n 2 to show the peek element"+
                 "\n 3 to pop all element"+
                 "\n 4 to queue the element"+
+                "\n 5 to dequeue the element"+
                 "\n choice: ");
 
         switch (sc.nextInt()) {
@@ -27,6 +28,10 @@ public class StackQueueMain {
 
             case 4:
                 Operation.queueelement();
+                break;
+
+            case 5:
+                Operation.dequeueelement();
                 break;
         }
 
